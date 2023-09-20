@@ -1,18 +1,9 @@
 /* stylalize the form between a scroll friendly mobile first version and a sectioned desktop version. */
 
-body{
-    align-items: center;
-    padding: 10px;
-}
 h1{
     padding: 10px;
     font-size:xx-large;
-    font: bolder;
-}
-h3{
-    font-size: large;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    text-align: center;
 }
 form{
     display: grid;
@@ -23,25 +14,18 @@ label{
     padding: 10px;
 }
 input{
-    width: 70vw;
     margin: 10px;
+    display: grid;
 }
 #submit{
     width: 30vw;
-    align-self: center;
+    text-align: center;
 }
-@media(max-width: 900px){
+@media(max-width: 750px){
+    form{
+        background-color: rgb(217, 135, 194);
+    }
     input{
-        width: 70vw;
+        width: 90vw;
     }
-    ::-webkit-scrollbar{
-        width: 10px;
-    }
-    ::-webkit-scrollbar-track{
-        color: black;
-    }
-    ::-webkit-scrollbar-button{
-        color: gray;
-    }
-
 }
