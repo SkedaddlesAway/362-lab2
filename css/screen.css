@@ -1,6 +1,47 @@
+/* stylalize the form between a scroll friendly mobile first version and a sectioned desktop version. */
+
 body{
-    padding: 0px;
+    align-items: center;
+    padding: 10px;
 }
-/* stylalize the form between a scroll friendly mobile first version, 
-   and a sectioned desktop version.
-*/
+h1{
+    padding: 10px;
+    font-size:xx-large;
+    font: bolder;
+}
+h3{
+    font-size: large;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+form{
+    display: grid;
+    background-color: rgb(50, 152, 180);
+    color: white;
+}
+label{
+    padding: 10px;
+}
+input{
+    width: 70vw;
+    margin: 10px;
+}
+#submit{
+    width: 30vw;
+    align-self: center;
+}
+@media(max-width: 900px){
+    input{
+        width: 70vw;
+    }
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        color: black;
+    }
+    ::-webkit-scrollbar-button{
+        color: gray;
+    }
+
+}
