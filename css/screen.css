@@ -21,11 +21,15 @@ input{
     width: 30vw;
     text-align: center;
 }
+
 @media(max-width: 750px){
+    dialog{
+        width: 90vw;
+    }
     form{
         background-color: rgb(217, 135, 194);
     }
     input{
-        width: 90vw;
+        width: 83vw;
     }
 }
