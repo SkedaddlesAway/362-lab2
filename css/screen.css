@@ -1,35 +1,35 @@
 /* stylalize the form between a scroll friendly mobile first version and a sectioned desktop version. */
 
-h1{
-    padding: 10px;
-    font-size:xx-large;
-    text-align: center;
+h1 {
+  padding: 10px;
+  font-size: xx-large;
+  text-align: center;
 }
-form{
-    display: grid;
-    background-color: rgb(50, 152, 180);
-    color: white;
+form {
+  display: grid;
+  background-color: rgb(50, 152, 180);
+  color: white;
 }
-label{
-    padding: 10px;
+label {
+  padding: 10px;
 }
-input{
-    margin: 10px;
-    display: grid;
+input {
+  margin: 10px;
+  display: grid;
 }
-#submit{
-    width: 30vw;
-    text-align: center;
+#submit {
+  width: 30vw;
+  text-align: center;
 }
 
-@media(max-width: 750px){
-    dialog{
-        width: 90vw;
-    }
-    form{
-        background-color: rgb(217, 135, 194);
-    }
-    input{
-        width: 83vw;
-    }
+@media (max-width: 750px) {
+  dialog {
+    width: 90vw;
+  }
+  form {
+    background-color: rgb(217, 135, 194);
+  }
+  input {
+    width: 83vw;
+  }
 }
